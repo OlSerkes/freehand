@@ -83,11 +83,10 @@ h1{
 }
 
 .services__item{
-    flex-grow: 0;
     border: 1px solid var(--bg-color);
     border-radius: 8px;
     position: relative;
-    width: 370px;
+    max-width: 370px;
     height: 340px;
     padding: 40px;
     transition: all 0.5s;
@@ -278,4 +277,73 @@ h1{
     background-image: url(img/twitter-hover.svg);
 }
 
+@media(max-width: 1285px){
+    .services__item{
+        padding: 30px;
+    }
+    .services__item-text{
+        text-align: justify;
+    }
+}
 
+@media(max-width: 1080px){
+    .services__item {
+        padding: 15px;
+    }
+    .services__item-title {
+        margin-top: 80px;
+    }
+}
+
+@media(max-width: 992px){
+    .main {
+        margin: 80px 110px;
+    }
+    .services__item {
+        padding: 20px;
+    }
+}
+
+@media(max-width: 825px){
+    .main__title, .services__title {
+        text-align: center;
+    }
+    .services__items {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .services__item{
+        padding: 40px;
+    }
+}
+
+@media(max-width: 540px) {
+    .main {
+            margin: 70px 90px;
+        }
+    .logo {
+        padding: 22.5px 90px;
+    }
+    .services__title{
+        font-style: 30px;
+        line-height: 40px;
+    }
+    .social{
+        padding: 0 90px;
+    }
+}
+
+@media(max-width: 480px){
+    .main {
+        margin: 40px 35px;
+    }
+    .logo{
+        padding: 21.5px 20px;
+    }  
+    .services__item {
+        padding: 20px;
+    }
+    .social {
+        padding: 0 20px;
+    }
+}
