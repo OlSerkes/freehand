@@ -1,3 +1,4 @@
-/mock-up
+mock-up
 mock-up/
 *.fig
+.gitignore
