@@ -214,7 +214,8 @@ h1{
     background-color: var(--main-color);
 }
         
-.social{
+.social,
+.validation{
     margin-top: 40px;
     padding: 0 135px;
 }
@@ -325,7 +326,7 @@ h1{
         padding: 22.5px 90px;
     }
     .services__title{
-        font-style: 30px;
+        font-size: 30px;
         line-height: 40px;
     }
     .social{
